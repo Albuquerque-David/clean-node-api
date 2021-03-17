@@ -24,9 +24,8 @@ export default {
 
   // The directory where Jest should output its coverage files
   roots: ['<rootDir>/src'],
-  collcectCoverageFrom: ['<rootDir>/src/**/*.ts'],
+  collectCoverageFrom: ['<rootDir>/src/**/*.ts'],
   coverageDirectory: 'coverage',
-  testEnvironment: 'node',
   transform: {
     '.+\\.ts$': 'ts-jest'
   },
